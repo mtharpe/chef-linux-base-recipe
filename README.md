@@ -1,3 +1,5 @@
+![Chef Validation and Testing](https://github.com/mtharpe/chef-linux-base-recipe/workflows/Chef%20Validation%20and%20Testing/badge.svg)
+
 # Description
 
 Installs/Configures chef-linux-base-recipe
