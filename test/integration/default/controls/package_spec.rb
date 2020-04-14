@@ -1,3 +1,8 @@
+# InSpec test for recipe chef-linux-base-recipe::default
+
+# The InSpec reference, with examples and extensive documentation, can be
+# found at https://www.inspec.io/docs/reference/resources/
+
 val_syslog_pkg = attribute('syslog_pkg', value: 'rsyslog', description: 'syslog package to ensure present (default: rsyslog, alternative: syslog-ng...')
 container_execution = begin
                         virtualization.role == 'guest' && virtualization.system =~ /^(lxc|docker)$/

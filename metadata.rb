@@ -1,7 +1,7 @@
 name 'chef-linux-base-recipe'
 maintainer 'HashiCorp'
 maintainer_email 'hello@hashicorp.com'
-license 'All Rights Reserved'
+license 'Apache-2.0'
 description 'Installs/Configures chef-linux-base-recipe'
 version '0.1.0'
 chef_version '>= 14.0'

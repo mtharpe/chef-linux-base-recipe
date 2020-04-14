@@ -39,4 +39,4 @@ Source:: https://github.com/mtharpe/chef-linux-base-recipe
 
 Issues:: https://github.com/mtharpe/chef-linux-base-recipe/issues
 
-License:: All Rights Reserved
+License:: Apache-2.0

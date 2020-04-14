@@ -1,3 +1,8 @@
+# InSpec test for recipe chef-linux-base-recipe::default
+
+# The InSpec reference, with examples and extensive documentation, can be
+# found at https://www.inspec.io/docs/reference/resources/
+
 login_defs_umask = attribute('login_defs_umask', value: os.redhat? ? '077' : '027', description: 'Default umask to set in login.defs')
 
 login_defs_passmaxdays = attribute('login_defs_passmaxdays', value: '60', description: 'Default password maxdays to set in login.defs')

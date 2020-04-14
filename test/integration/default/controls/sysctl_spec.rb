@@ -1,3 +1,8 @@
+# InSpec test for recipe chef-linux-base-recipe::default
+
+# The InSpec reference, with examples and extensive documentation, can be
+# found at https://www.inspec.io/docs/reference/resources/
+
 sysctl_forwarding = attribute('sysctl_forwarding', value: false, description: 'Is network forwarding needed?')
 kernel_modules_disabled = attribute('kernel_modules_disabled', value: 0, description: 'Should loading of kernel modules be disabled?')
 container_execution = begin

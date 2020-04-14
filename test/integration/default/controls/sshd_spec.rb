@@ -1,3 +1,8 @@
+# InSpec test for recipe chef-linux-base-recipe::default
+
+# The InSpec reference, with examples and extensive documentation, can be
+# found at https://www.inspec.io/docs/reference/resources/
+
 title 'SSH server config'
 
 sshd_valid_ciphers = attribute('sshd_valid_ciphers', value: ssh_crypto.valid_ciphers, description: 'Expected value for sshd_config ciphers')

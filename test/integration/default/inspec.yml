@@ -3,8 +3,8 @@ title: Linux base recipe to ensure proper configuration
 maintainer: HashiCorp
 copyright: HashiCorp
 copyright_email: hello@hashicorp.com
-license: Proprietary, All rights reserved
-summary: Linux server baselines with rips from DevSec
+license: 'Apache-2.0'
+summary: Linux server baselines
 version: 1.0.0
 
 supports:
