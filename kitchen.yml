@@ -12,9 +12,6 @@ provisioner:
   chef_license: accept
   install_strategy: always
   always_update_cookbooks: true
-  attributes:
-    fedora_workstation:
-      user: 'vagrant'
 
 verifier:
   name: inspec
