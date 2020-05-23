@@ -6,6 +6,7 @@ Installs/Configures chef-linux-base-recipe
 
 # Requirements
 
+Chef
 
 ## Chef Client:
 
