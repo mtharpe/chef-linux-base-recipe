@@ -453,7 +453,7 @@ control 'sshd-47' do
   title 'Server: DebianBanner'
   desc 'Specifies whether to include OS distribution in version information'
   case os[:family]
-  when 'debian' then
+  when 'debian'
     describe sshd_config do
       its('DebianBanner') { should eq('no') }
     end
