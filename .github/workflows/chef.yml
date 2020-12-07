@@ -14,5 +14,3 @@ jobs:
       uses: actionshub/chef-install@master
     - name: Cookstyle
       run: cookstyle
-    - name: Rubocop
-      run: foodcritic .
