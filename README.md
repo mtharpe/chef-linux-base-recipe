@@ -1,4 +1,4 @@
-![Chef Validation and Testing](https://github.com/mtharpe/chef-linux-base-recipe/workflows/Chef%20Validation%20and%20Testing/badge.svg)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mtharpe/chef-linux-base-recipe/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/mtharpe/chef-linux-base-recipe/tree/main)
 
 # Description
 

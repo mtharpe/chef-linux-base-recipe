@@ -24,12 +24,6 @@ if platform?('ubuntu')
   end
 end
 
-case node['os']
-when 'linux'
-
-  %w(bash curl wget unzip mlocate vim).each do |pkg|
-    package pkg do
-      action :install
-    end
-  end
+if node['os'] == 'linux'
+  package %w(bash curl wget unzip mlocate vim)
 end

@@ -9,6 +9,7 @@ provisioner:
   sudo: true
   name: chef_zero
   product_name: chef
+  product_version: latest
   chef_license: accept
   install_strategy: always
   always_update_cookbooks: true
@@ -17,10 +18,11 @@ verifier:
   name: inspec
 
 platforms:
-  - name: generic/ubuntu1804
-  - name: generic/ubuntu2004
-  - name: generic/centos7
-  - name: generic/centos8
+  - name: bento/ubuntu-22.04
+  - name: bento/ubuntu-24.04
+  - name: bento/rockylinux-8
+  - name: bento/rockylinux-9
+  - name: bento/almalinux-9
 
 suites:
   - name: default
